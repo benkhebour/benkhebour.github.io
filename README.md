@@ -1,47 +1,33 @@
-<img src="https://github.com/CIS320-team-3/CIS320-Team-3/blob/1dad6fea7c43840affd579a7aa2e793c8e0efb1a/Team/Images/PortfoliU%20Project.png" width=100%/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/imgios/minimalist/master/.github/minimalist-512.png" width="64">
+  <h3 align="center"><code>minimalist</code></h3>
+</p>
 
-# PortfoliU Project
+<p align="center">Clean HTML portfolio template, responsive, open-source, and ready to use!</p>
 
-PortfoliU is an open-source Github project that helps people gather the knowledge they need to create their own portfolio websites for free. By providing templates, tutorials, and tips & tricks, PortfoliU makes it easy for anyone to create a professional portfolio website – no design or coding skills required!
+<h6 align="center"><a href="https://imgios.github.io/minimalist/">Demo</a> · Built with <a href="https://getbootstrap.com/">Bootstrap</a></h6>
 
-<!--
-    TODO: What does this project do?
-    TODO: Why is this project useful?
-    DONE: How do I get started?
-    TODO: Where can I get more help, if I need it?
+### This is an example of this template with Projects
+![](https://github.com/CIS320-team-3/CIS320-Team-3/blob/d600e6c4b912ca77ba1e74e26434aa8bc76d4537/Templates/Simple%20Themes/Simple-Minimal/assets/images/projects.jpeg)
 
-    You can use your README to answer other questions, like how you handle contributions, what the goals of the project are, and information about licenses and attribution. If you don’t want to accept contributions, or your project is not yet ready for production, write this information down.
--->
+### This is an example of this template with Experience examlpes
+![](https://github.com/CIS320-team-3/CIS320-Team-3/blob/d600e6c4b912ca77ba1e74e26434aa8bc76d4537/Templates/Simple%20Themes/Simple-Minimal/assets/images/experience.jpeg)
 
-## Contributing to the PortfoliU Open-Source Github Repository
+## Contributors
 
-Thank you for your interest in contributing to an open-source Github repository!
+<a href="https://github.com/imgios/minimalist/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=imgios/minimalist" />
+</a>
 
-In order to ensure that all members of the PortfoliU community are able to work together harmoniously, we ask that all contributors adhere to the following code of conduct:
+## Contributing
+If you want to make it with different colors, add new features, fix any bug, or just contributing, **you're welcome**!
+1. Start by forking the repository.
+2. Create your own branch from `develop`: 
+    - `feature/featureName`
+    - `bug/bugName`
+3. Do the magic and write good commits message!
+4. Create a Pull Request.
 
-- Be respectful of others in all forms of communication. We are here to contribute and learn.
+## License
 
-- Do not make any changes that would negatively impact the repository or its users.
-
-- Make sure your change does not introduce any new bugs or regressions to existing code.
-
-- Review your change thoroughly before submitting a pull request.
-
-- If you are unsure about anything, feel free to open an issue asking for help.
-
-Thank you for helping to make the PortfoliU repository a positive and welcoming place for all!
-
-Our goal is to make our tutorials more accessible to people around the world by translating them into different languages.
-
-
-## How can I contribute?
-
-You can help us by:
-* Adding comments to our existing templates to increase understanding of the code.
-* Adding new open-source and cited templates for others to use.
-* Updating, appending, or creating new tutorials.
-* Adding screenshots of templates in action.
-* Linking to helpful resources.
-* Translating our tutorials into your native language.
-* Have an idea, create an issue and get feedback!
-
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
