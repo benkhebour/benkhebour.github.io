@@ -2,14 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Clean HTML portfolio template, responsive, open-source, and ready to use!">
-    <meta name="author" content="Giosuè Sulipano">
+    <meta name="description" content="Ibrahim Khebour is a PhD Computer Science candidate at Colorado State University, specializing in multimodal AI, NLP, and signal processing.">
+    <meta name="keywords" content="Ibrahim Khebour, PhD, Computer Science, multimodal AI, NLP, signal processing, machine learning, CSU, research">
+    <meta name="author" content="Ibrahim Khebour">
+    <meta name="theme-color" content="#0d6efd">
 
     <!-- Mobile-friendly -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ibrahim Khebour | PhD Candidate, Multimodal AI & Signal Processing">
+    <meta property="og:description" content="Colorado State University PhD candidate working on multimodal collaborative AI and signal processing.">
+    <meta property="og:image" content="assets/images/profile.jpg">
+    <meta property="og:url" content="https://benkhebour.github.io/">
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ibrahim Khebour | PhD Candidate, Multimodal AI & Signal Processing">
+    <meta name="twitter:description" content="Colorado State University PhD candidate working on multimodal collaborative AI and signal processing.">
+    <meta name="twitter:image" content="assets/images/profile.jpg">
+
+    <!-- Bootstrap CSS (v5.3) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" crossorigin="anonymous">
 
     <!-- Minimalist CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/minimalist.css">
@@ -17,8 +32,7 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 
-    <!-- Favicon -->
-    <!-- <link rel="icon" type="image/png" href="assets/images/favicon.ico"> -->
+    <link rel="preload" href="assets/images/profile.jpg" as="image">
 
     <!-- This is your tab name, edit to what you prefer. -->
     <style>
@@ -27,7 +41,7 @@
       }
     </style>
 
-    <title>Ibrahim Khebour</title>
+    <title>Ibrahim Khebour | PhD Computer Science</title>
   </head>
   
 <!--  It is important to note any extra sections may be deleted if prefered. Be sure to test your code if you do so.  -->  
@@ -41,19 +55,27 @@
       <div class="container">
         <div class="row justify-content-lg-center">
           <div class="col-lg-2 text-center">
-            <img width="130" src="assets/images/profile.jpg" class="user-image rounded-circle" alt="Ibrahim Khebour">
+            <img width="130" src="assets/images/profile.jpg" class="user-image rounded-circle" alt="Ibrahim Khebour profile picture" loading="eager">
           </div>
           <div class="col-lg-7">
             
             <!--  Replace Name Surname with your name.  -->
-            <h2>Ibrahim Khebour</h2>
+            <h1>Ibrahim Khebour</h1>
+            <p class="lead">PhD Candidate in Computer Science at Colorado State University | Multimodal AI, NLP, and Signal Processing Researcher</p>
             
             <!--  Update with information about yourself (i.e. experience, bio) -->
             <p class="text-justify">
-              Hello world! I'm Ibrahim, a multidisciplinary engineer specialized in signal processing, and currently doing a PhD in Computer Science. My passions are Mathematics, computer science and sailing.
-              <br>This website is a more detailed version of my resumé which can be found down below.
+              I am a multidisciplinary engineer and researcher focusing on collaborative, multimodal intelligence, large language models, and signal analysis. As a researcher at the SIGNAL lab at Colorado State University, I work on projects spanning Common Knowledge Representation, Multimodal ML, Machine Translation ... 
             </p>
-            <ul class="list-inline text-lg-right social-icons">
+            <ul class="list-unstyled small">
+              <!-- <li>• ACL/Coling publication on multilingual loanword detection</li> -->
+              <!-- <li>• 2023 AIED conference + LREC-COLING 2024 submission</li> -->
+              <!-- <li>• Python, PyTorch, HuggingFace, OpenAI, data-driven multimodal pipelines</li> -->
+            </ul>
+            <a class="btn btn-primary btn-sm me-2" href="Ibrahim Khebour CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
+            <!-- <a class="btn btn-outline-secondary btn-sm" href="#projects">Explore Projects</a> -->
+
+            <ul class="list-inline text-lg-right social-icons mt-3">
               
               <!--  replace the href link with the link to your gitHub profile  -->
               <!-- <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li> -->
@@ -65,14 +87,14 @@
               -->
               
               <!--  replace the href link with the link to your Google Scholar profile  -->
-              <li class="list-inline-item"><a href="https://scholar.google.com/citations?user=qpGSXpwAAAAJ&hl=fr&oi=sra" target="_blank"><img src="assets/images/scholar_.png" alt="Google Scholar"></a></li>
+              <li class="list-inline-item"><a href="https://scholar.google.com/citations?user=qpGSXpwAAAAJ&hl=fr&oi=sra" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar profile"><img src="assets/images/scholar_.png" alt="Google Scholar"></a></li>
 
               <!--  replace the href link with the link to your LinkedIn profile  -->
               
-              <li class="list-inline-item"><a href="https://www.linkedin.com/in/ibrahimkhalilkhebour/" target="_blank"><i class="fab fa-linkedin-in" style='font-size:36px'></i></a></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/ibrahimkhalilkhebour/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="fab fa-linkedin-in" style='font-size:36px'></i></a></li>
               
               <!--  replace the href email address with your email address -->
-              <li class="list-inline-item"><a href="mailto: benkh@colostate.edu"><i class="fas fa-at"  style='font-size:36px'></i></a></li>
+              <li class="list-inline-item"><a href="mailto:benkh@colostate.edu" aria-label="Send email"><i class="fas fa-at"  style='font-size:36px'></i></a></li>
               
                <!-- replace the href link with the link to your Facebook or other profile/website.  -->
               <!-- <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li> -->
@@ -84,17 +106,18 @@
         </div>
       </div>
     </header>
-    
+
+    <main>
     <!-- Content -->
     <section>
       <!-- ./content-switch -->
       <div class="d-flex justify-content-center">
         <div class="list-group list-group-horizontal-md" id="content-tabs" role="tablist">
-          <a class="list-group-item small text-uppercase active" id="list-education-list" data-toggle="list" href="#education" role="tab">Education</a>
-          <a class="list-group-item small text-uppercase" id="list-experience-list" data-toggle="list" href="#experience" role="tab">Experience</a>
-          <a class="list-group-item small text-uppercase" id="list-projects-list" data-toggle="list" href="#projects" role="tab">Projects</a>
-          <!-- <a class="list-group-item small text-uppercase" id="list-publications-list" data-toggle="list" href="#publications" role="tab">Publications</a> -->
-          <a class="list-group-item small text-uppercase" id="list-resume-list" href="Ibrahim Khebour CV.pdf" target="_blank" >CV</a>
+          <a class="list-group-item small text-uppercase active" id="list-education-list" data-bs-toggle="list" href="#education" role="tab">Education</a>
+          <a class="list-group-item small text-uppercase" id="list-experience-list" data-bs-toggle="list" href="#experience" role="tab">Experience</a>
+          <a class="list-group-item small text-uppercase" id="list-projects-list" data-bs-toggle="list" href="#projects" role="tab">Projects</a>
+          <!-- <a class="list-group-item small text-uppercase" id="list-publications-list" data-bs-toggle="list" href="#publications" role="tab">Publications</a> -->
+          <a class="list-group-item small text-uppercase" id="list-resume-list" href="Ibrahim Khebour CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
         </div>
       </div>
       <!-- ./content-switch -->
@@ -113,7 +136,7 @@
                     <h3 class="timeline-h3">Colorado State University</h3>
                     <span class="timeline-span">PhD in Computer Science</span>
                     <p class="text-muted small mb-3">August 2022 - Present</p>
-                    <p class="timeline-p text-justify">I've been introduced to CSU through EPT's alumnis while I was looking for a graduation internship to conclude my engineering studies. I was interested in Dr. Nikhil Krishnaswamy's work and wanted to work with him so I applied to his lab. After a very fruitful internship, I applied for the grad program and got accepted with Dr. Krishnaswamy's recommendation. 
+                    <p class="timeline-p text-justify">I've been introduced to CSU through EPT's alumni while I was looking for a graduation internship to conclude my engineering studies. I was interested in Dr. Nikhil Krishnaswamy's work and wanted to work with him so I applied to his lab. After a very fruitful internship, I applied for the grad program and got accepted with Dr. Krishnaswamy's recommendation. 
                       <br>During my time here, I've taken very relevant courses, such as Natural Language Processing, Machine Learning, and plan on taking Artificial Intelligence, Analysis of Algorithms and Software Product and Process Evaluation in the future.</p>
                   </div>
                 </div>
@@ -124,7 +147,7 @@
                     <h3 class="timeline-h3">Ecole Polytechnique de Tunisie</h3>
                     <span class="timeline-span">Multidisciplinary Engineering degree</span>
                     <p class="text-muted small mb-3">Sep 2019 - June 2022</p>
-                    <p class="timeline-p text-justify">Ecole Polytechnique de Tunisie (also known as Tunisia Polytechnic School) is an engineering school, that only accepts 50 students each year, from the national entrance exam for engineering schools. As EPT is known to be the best school in Tunisia, its students are usually those who rank in the top 70 in the naitonal exam, with about 3600 students taking that exam every year, meaning EPT accepts the best 2% students each year. 
+                    <p class="timeline-p text-justify">Ecole Polytechnique de Tunisie (also known as Tunisia Polytechnic School) is an engineering school, that only accepts 50 students each year, from the national entrance exam for engineering schools. As EPT is known to be the best school in Tunisia, its students are usually those who rank in the top 70 in the national exam, with about 3600 students taking that exam every year, meaning EPT accepts the best 2% students each year. 
                       <br>EPT has a general engineering program, making sure that its students are familiar with various subjects such as Mathematics (stochastic processes, optimization, numerical analysis, ...), Physics (Finite Element Method, Quantum physics, ...) Computer Science (C/C++, Java, AI, Algorithms and data structures, ...) Economics (Accounting, entrepreneurship, Finance, ...) and Signal Processing (Signal and systems theory, Spectral analysis, Multimedia data processing, ...).
                       <br>The continuation of the intense and fast pace of this school that began at the preparatory system allowed me to learn how to learn, by studying different subjects in short periods of time and learning new approaches to problem solving. I also learned how to work under pressure, and still maintain a high level of productivity</p>
                     </div>
@@ -137,7 +160,7 @@
                       <h3 class="timeline-h3">Preparatory Institute for Engineering Studies of El Manar</h3>
                       <span class="timeline-span">Ranked 36<sup>th</sup> out of 2000 in the national exam</span>
                       <p class="text-muted small mb-3">Sep 2017 - June 2019</p>
-                      <p class="timeline-p text-justify">The Preparatory Institute for Engineering Studies of El Manar (IPEIEM) is an institute that prepares you to take the national entrance exam for engineering schools. This institute is among the top 3 best (nation wide) in terms of results in the national exam. For 2 years, this educational system puts the student under immense stress situations to extract the best of their performances. Students that want to enter engineering schools must first study advanced Mathematics (Algebra, Calculus, Probability ...) advanced Physics (from Newtonian physics to Quantum physics), Computer Science, Chemistry (Thermodynamics), Mechanics, French and English. These institutes prepare its students to take a the very competitive national exam that would determine which engineering school each student goes to.</p>
+                      <p class="timeline-p text-justify">The Preparatory Institute for Engineering Studies of El Manar (IPEIEM) is an institute that prepares you to take the national entrance exam for engineering schools. This institute is among the top 3 best (nation wide) in terms of results in the national exam. For 2 years, this educational system puts the student under immense stress situations to extract the best of their performances. Students that want to enter engineering schools must first study advanced Mathematics (Algebra, Calculus, Probability ...) advanced Physics (from Newtonian physics to Quantum physics), Computer Science, Chemistry (Thermodynamics), Mechanics, French and English. These institutes prepare its students to take the very competitive national exam that would determine which engineering school each student goes to.</p>
                     </div>
                   </div>
                 </div>
@@ -200,7 +223,7 @@
                   <h4 class="card-title">Non-verbal feature contributions to multimodal interpretation of meaning.</h4>
 
                   <p class="card-text"> This project focuses on enhancing the real-time multimodal processing capabilities of AI systems to better understand naturalistic conversations in collaborative settings. While language remains the primary modality, non-verbal cues such as gestures, actions, and prosody play a crucial role in conveying intent and meaning. </p>
-                  <img src="assets/images/non-verbal.png" alt="Collaborative Problem Solving illustration" class="img-fluid mt-3 mb-3">
+                  <img src="assets/images/non-verbal.png" alt="Collaborative Problem Solving illustration" class="img-fluid mt-3 mb-3" loading="lazy">
       
                   <ul class="list-inline social-icons">
                     <!-- <li class="list-inline-item"><a href="https://www.nikhilkrishnaswamy.com/assets/docs/pdfs/AIEd-2023.pdf" target="_blank"><i class="fas fa-link"></i></a></li> -->
@@ -221,8 +244,8 @@
                 <div class="card-body">
                   <h4 class="card-title">Common Ground Tracking in Multimodal Dialogue</h4>
 
-                  <p class="card-text">The main idea behind this project is to keep track of the shared knowledge in a group of collaborators. I got to test different Large Language Models and compare their performances along with other modalities (prosodic, gesture, collaboration facets, actions). A long paper was submitted to LREC-Coling 2024 and are waiting for reviews. </p>
-                  <img src="assets/images/cg.png" alt="Collaborative Problem Solving illustration" class="img-fluid mt-3 mb-3">
+                  <p class="card-text">The main idea behind this project is to keep track of the shared knowledge in a group of collaborators. I got to test different Large Language Models and compare their performances along with other modalities (prosodic, gesture, collaboration facets, actions). Accepted at LREC-Coling 2024. </p>
+                  <img src="assets/images/cg.png" alt="Collaborative Problem Solving illustration" class="img-fluid mt-3 mb-3" loading="lazy">
 
                   <ul class="list-inline social-icons">
                     <li class="list-inline-item"><a href="https://arxiv.org/pdf/2403.17284" target="_blank"><i class="fas fa-link"></i></a></li>
@@ -243,7 +266,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Detection of collaborative states using multimodal features</h4>
                   <p class="card-text">In this project, we used multimodal data (speech, prosodic, visual) to classify collaborative problem solving facets during an utterance from a group task. This was the subject to a paper submitted for the 2023 AIED conference held in Tokyo, Japan. </p>
-                  <img src="assets/images/cps.png" alt="Collaborative Problem Solving illustration" class="img-fluid mt-3 mb-3">
+                  <img src="assets/images/cps.png" alt="Collaborative Problem Solving illustration" class="img-fluid mt-3 mb-3" loading="lazy">
 
                   <ul class="list-inline social-icons">
                     <li class="list-inline-item"><a href="https://www.nikhilkrishnaswamy.com/assets/docs/pdfs/AIEd-2023.pdf" target="_blank"><i class="fas fa-link"></i></a></li>
@@ -310,7 +333,7 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Machine learning for background subtraction</h4>
-                  <p class="card-text">This project was accounted as a final evaluation for the Computer Vision course at EPT. Me and a classmate implemented a machine learning technique for background removal, and applied it on suspect object detection. The ABODA dataset was used in this project. Trying to get good classification results on computer vision without surrendering to deep learning was very challenging, and improved our brainstorming sklls.</p>
+                  <p class="card-text">This project was accounted as a final evaluation for the Computer Vision course at EPT. Me and a classmate implemented a machine learning technique for background removal, and applied it on suspect object detection. The ABODA dataset was used in this project. Trying to get good classification results on computer vision without surrendering to deep learning was very challenging, and improved our brainstorming skills.</p>
                   <ul class="list-inline social-icons">
                     <!-- <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
                     <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li> -->
@@ -339,10 +362,9 @@
         </div>
       </div>
     </section>
+    </main>
 
     <!-- JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
   </body>
 </html>
