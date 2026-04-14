@@ -1,0 +1,208 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{baskervillef}
+\usepackage[T1]{fontenc}
+
+
+
+\usepackage{soul}
+\usepackage{xcolor}
+\setul{1pt}{.4pt} % Adjusts the thickness and depth of the underline
+\newcommand{\pubtitle}[2]{\href{#1}{\textbf{\ul{#2}}}}
+
+\input{glyphtounicode}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{0in}
+\addtolength{\textwidth}{0in}
+\addtolength{\topmargin}{0.2in}
+
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{\it\vspace{3pt}}{}{0em}{}[\titlerule\vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-2pt}\item
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{#1} & #2 \\
+\textit{\small #3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeItem}[1]{\item{#1 \vspace{-4pt}}}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+% HEADER
+\begin{center}
+{\LARGE Ibrahim Khebour}
+
+\begin{multicols}{2}
+\begin{flushleft}
++1 970-581-7152 \\
+Fort Collins, CO, USA
+\end{flushleft}
+
+\begin{flushright}
+\href{https://benkhebour.github.io/}{benkhebour.github.io} \\
+\href{https://www.linkedin.com/in/ibrahimkhalilkhebour}{linkedin.com/in/ibrahimkhalilkhebour} \\
+\href{mailto:benkh@colostate.edu}{benkh@colostate.edu}
+\end{flushright}
+\end{multicols}
+\end{center}
+
+\vspace{-0.3in}
+
+% EDUCATION
+\section{Education}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Colorado State University}{Aug 2022 -- Present}
+{PhD in Computer Science}{Fort Collins, CO}
+
+\resumeSubheading
+{Tunisia Polytechnic School}{Sep 2019 -- Jun 2022}
+{Multidisciplinary Engineering Degree}{Tunis, Tunisia}
+
+\resumeSubheading
+{Preparatory Institute for Engineering Studies of El Manar}{Sep 2017 -- Jun 2019}
+{Ranked 36\textsuperscript{th}/2000 (Top 2\%)}{Tunis, Tunisia}
+
+\resumeSubHeadingListEnd
+
+\vspace{-0.2in}
+
+% EXPERIENCE
+\section{Research Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Graduate Research Assistant}{Aug 2022 -- Present}
+{Colorado State University, SIGNAL Lab}{Fort Collins, CO}
+\resumeItemListStart
+\resumeItem{Architecting multimodal ML systems combining speech, vision, and behavioral signals for common ground tracking.}
+\resumeItem{Designing real-time inference pipelines for low-latency deployment in live environments.}
+\resumeItem{Contributing to NSF iSAT and DARPA FACT projects.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Graduation Research Intern}{Feb 2022 -- Jun 2022}
+{Colorado State University}{Fort Collins, CO}
+\resumeItemListStart
+\resumeItem{Developed multilingual loanword detection models across 10+ languages.}
+\resumeItem{Applied data augmentation for low-resource NLP tasks.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Data Science Intern}{Jun 2021 -- Aug 2021}
+{Datagram}{Paris, France}
+\resumeItemListStart
+\resumeItem{Built semantic similarity systems using Transformer models (BERT, RoBERTa, USE).}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-0.25in}
+
+% PUBLICATIONS
+\section{Publications}
+
+\begin{itemize}
+
+\item \textbf{Khebour, Ibrahim}, Jung, Changsoo, Fitzgerald, Jack, Jamil, Huma, Krishnaswamy, Nikhil. 
+\pubtitle{https://par.nsf.gov/servlets/purl/10586880}{Feature Contributions to Multimodal Interpretation of Meaning}. 
+Proceedings of the International Conference on Human-Computer Interaction, 2025.
+
+\item Jamil, Huma, \textbf{Khebour, Ibrahim}, Lai, Kenneth, Pustejovsky, James, Krishnaswamy, Nikhil. 
+\pubtitle{https://aclanthology.org/2025.iwcs-main.4.pdf}{A Graph Autoencoder Approach for Gesture Classification with Gesture AMR}. 
+Proceedings of the International Conference on Computational Semantics, 2025.
+
+\item Zhu, Yifan, Lai, Kenneth, \textbf{Khebour, Ibrahim}, Verhagen, Marc, Krishnaswamy, Nikhil, Pustejovsky, James. 
+\pubtitle{https://link.springer.com/chapter/10.1007/978-3-031-94153-5_45}{Multimodal Situational Awareness: Neuro-Symbolic AI for Real-Time HCI in the Classroom}. 
+Proceedings of the International Conference on Human-Computer Interaction, 2025.
+
+\item Bradford, Mariah, \textbf{Khebour, Ibrahim}, VanderHoeven, Hannah, Venkatesha, Videep, Blanchard, Nathaniel, Krishnaswamy, Nikhil. 
+\pubtitle{https://link.springer.com/content/pdf/10.1007/978-3-031-93412-4_8.pdf}{Tracking Individual Beliefs in Co-situated Groups Using Multimodal Input}. 
+Proceedings of the International Conference on Human-Computer Interaction, 2025.
+
+\item Venkatesha, Videep, Nath, Abhijnan, \textbf{Khebour, Ibrahim}, Chelle, Avyakta, Bradford, Mariah, Tu, Jingxuan, VanderHoeven, Hannah, Bhalla, Brady, Youngren, Austin, Fitzgerald, Jack, et al. 
+\pubtitle{https://par.nsf.gov/servlets/purl/10588539}{Propositional Extraction from Collaborative Naturalistic Dialogues}. 
+Journal of Educational Data Mining, 2025.
+
+\item VanderHoeven, Hannah, Bhalla, Brady, \textbf{Khebour, Ibrahim}, Youngren, Austin, Venkatesha, Videep, Bradford, Mariah, Fitzgerald, Jack, Mabrey, Carlos, Tu, Jingxuan, Zhu, Yifan, et al. 
+\pubtitle{https://aclanthology.org/2025.naacl-demo.5.pdf}{TRACE: Real-Time Multimodal Common Ground Tracking in Situated Collaborative Dialogues}. 
+Proceedings of the North American Chapter of the Association for Computational Linguistics (System Demonstrations), 2025.
+
+\item Palmer, Derek, Zhu, Yifan, Lai, Kenneth, VanderHoeven, Hannah, Bradford, Mariah, \textbf{Khebour, Ibrahim}, Mabrey, Carlos, Fitzgerald, Jack, Krishnaswamy, Nikhil, Palmer, Martha, et al. 
+\pubtitle{https://www.researchgate.net/publication/390711866_Speech_Is_Not_Enough_Interpreting_Nonverbal_Indicators_of_Common_Knowledge_and_Engagement}{Speech Is Not Enough: Interpreting Nonverbal Indicators of Common Knowledge and Engagement}. 
+Proceedings of the AAAI Conference on Artificial Intelligence, 2025.
+
+\item VanderHoeven, Hannah, Bradford, Mariah, Jung, Changsoo, \textbf{Khebour, Ibrahim}, Lai, Kenneth, Pustejovsky, James, Krishnaswamy, Nikhil, Blanchard, Nathaniel. 
+\pubtitle{https://bbykitty.github.io/assets/Multimodal\%20Design\%20for\%20Interactive\%20CPS\%20Support.pdf}{Multimodal Design for Interactive Collaborative Problem-Solving Support}. 
+Proceedings of the International Conference on Human-Computer Interaction, 2024.
+
+\item Zhu, Yifan, VanderHoeven, Hannah, Lai, Kenneth, Bradford, Mariah, Tam, Christopher, \textbf{Khebour, Ibrahim}, Brutti, Richard, Krishnaswamy, Nikhil, Pustejovsky, James. 
+\pubtitle{https://dl.acm.org/doi/abs/10.1007/978-3-031-60405-8_14}{Modeling Theory of Mind in Multimodal HCI}. 
+Proceedings of the International Conference on Human-Computer Interaction, 2024.
+
+\item Venkatesha, Videep, Nath, Abhijnan, \textbf{Khebour, Ibrahim}, Chelle, Avyakta, Bradford, Mariah, Tu, Jingxuan, Pustejovsky, James, Blanchard, Nathaniel, Krishnaswamy, Nikhil. 
+\pubtitle{https://files.eric.ed.gov/fulltext/ED675633.pdf}{Propositional Extraction from Natural Speech in Small Group Collaborative Tasks}. 
+International Conference on Educational Data Mining, 2024.
+
+\item \textbf{Khebour, Ibrahim}, Lai, Kenneth, Bradford, Mariah, Zhu, Yifan, Brutti, Richard, Tam, Christopher, Tu, Jingxuan, Ibarra, Benjamin, Blanchard, Nathaniel, Krishnaswamy, Nikhil, et al. 
+\pubtitle{https://aclanthology.org/2024.lrec-main.318.pdf}{Common Ground Tracking in Multimodal Dialogue}. 
+Proceedings of the Joint International Conference on Computational Linguistics, Language Resources and Evaluation, 2024.
+
+\item \textbf{Khebour, Ibrahim}, Brutti, Richard, Dey, Indrani, Dickler, Rachel, Sikes, Kelsey, Lai, Kenneth, Bradford, Mariah, Cates, Brittany, Hansen, Paige, Jung, Changsoo, et al. 
+\pubtitle{https://par.nsf.gov/servlets/purl/10499601}{When Text and Speech Are Not Enough: A Multimodal Dataset of Collaboration in a Situated Task}. 
+Journal of Open Humanities Data, 2024.
+
+\item Terpstra, Corbyn, \textbf{Khebour, Ibrahim}, Bradford, Mariah, Wisniewski, Brett, Krishnaswamy, Nikhil, Blanchard, Nathaniel. 
+\pubtitle{https://aclanthology.org/2023.isa-1.10.pdf}{How Good is Automatic Segmentation as a Multimodal Discourse Annotation Aid?} 
+Proceedings of the Joint ACL-ISO Workshop on Interoperable Semantics, 2023.
+
+\item Bradford, Mariah, \textbf{Khebour, Ibrahim}, Blanchard, Nathaniel, Krishnaswamy, Nikhil. 
+\pubtitle{https://bbykitty.github.io/assets/Automatic\%20Detection\%20of\%20Collaborative\%20States.pdf}{Automatic Detection of Collaborative States in Small Groups Using Multimodal Features}. 
+Proceedings of the International Conference on Artificial Intelligence in Education, 2023.
+
+\item Nath, Abhijnan, Saravani, Sina Mahdipour, \textbf{Khebour, Ibrahim}, Mannan, Sheikh, Li, Zihui, Krishnaswamy, Nikhil. 
+\pubtitle{https://aclanthology.org/2022.coling-1.442.pdf}{A Generalized Method for Automated Multilingual Loanword Detection}. 
+Proceedings of the International Conference on Computational Linguistics, 2022.
+
+\end{itemize}
+
+\vspace{-0.2in}
+
+% SKILLS
+\section{Specialized Skills}
+\begin{itemize}[leftmargin=0.15in]
+
+\item \textbf{Programming:} Python (PyTorch, HuggingFace), C/C++, R, SQL, LaTeX
+
+\item \textbf{Core Areas:} Multimodal ML, NLP, Real-Time Systems
+
+\item \textbf{Mathematics:} Linear Algebra, Probability, Optimization
+
+\item \textbf{Languages:} English, French, Arabic
+
+\end{itemize}
+
+\end{document}

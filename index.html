@@ -34,30 +34,23 @@
 
     <link rel="preload" href="assets/images/profile.jpg" as="image">
 
-    <!-- This is your tab name, edit to what you prefer. -->
-    <style>
-      #top-space {
-          height: 40px; /* Adjust the value as needed */
-      }
-    </style>
-
     <title>Ibrahim Khebour | PhD Computer Science</title>
   </head>
   
 <!--  It is important to note any extra sections may be deleted if prefered. Be sure to test your code if you do so.  -->  
 <!--  Look at the text within tags to enter your own information and delete any unnecessary tags.  -->
   
-  <body>
+  <body class="site-body">
     <!-- User info -->
-    <header>
+    <header class="hero">
       <div id="top-space"></div>
 
       <div class="container">
         <div class="row justify-content-lg-center">
-          <div class="col-lg-2 text-center">
+          <div class="col-lg-2 text-center hero-avatar-col">
             <img width="130" src="assets/images/profile.jpg" class="user-image rounded-circle" alt="Ibrahim Khebour profile picture" loading="eager">
           </div>
-          <div class="col-lg-7">
+          <div class="col-lg-7 hero-content-col">
             
             <!--  Replace Name Surname with your name.  -->
             <h1>Ibrahim Khebour</h1>
@@ -107,7 +100,7 @@
       </div>
     </header>
 
-    <main>
+    <main class="site-main">
     <!-- Content -->
     <section>
       <!-- ./content-switch -->
@@ -116,7 +109,7 @@
           <a class="list-group-item small text-uppercase active" id="list-education-list" data-bs-toggle="list" href="#education" role="tab">Education</a>
           <a class="list-group-item small text-uppercase" id="list-experience-list" data-bs-toggle="list" href="#experience" role="tab">Experience</a>
           <a class="list-group-item small text-uppercase" id="list-projects-list" data-bs-toggle="list" href="#projects" role="tab">Projects</a>
-          <!-- <a class="list-group-item small text-uppercase" id="list-publications-list" data-bs-toggle="list" href="#publications" role="tab">Publications</a> -->
+          <a class="list-group-item small text-uppercase" id="list-publications-list" data-bs-toggle="list" href="#publications" role="tab">Publications</a>
           <a class="list-group-item small text-uppercase" id="list-resume-list" href="Ibrahim Khebour CV 2026.pdf" target="_blank" rel="noopener noreferrer">CV</a>
         </div>
       </div>
@@ -359,6 +352,147 @@
             </div>
             <!-- Force next columns to break to new line -->
             <div class="w-100"></div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade show" id="publications" role="tabpanel">
+          <div class="row justify-content-lg-center">
+            <div class="col-lg-9">
+              <div class="card publication-card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">Feature Contributions to Multimodal Interpretation of Meaning</h4>
+                  <p class="card-text mb-2">Authors: <strong>Khebour, Ibrahim</strong>, Jung, Changsoo, Fitzgerald, Jack, Jamil, Huma, Krishnaswamy, Nikhil</p>
+                  <p class="card-text mb-2">Venue: International Conference on Human-Computer Interaction, 2025</p>
+                  <a href="https://par.nsf.gov/servlets/purl/10586880" target="_blank" rel="noopener noreferrer">Paper link</a>
+                </div>
+              </div>
+
+              <div class="card publication-card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">A Graph Autoencoder Approach for Gesture Classification with Gesture AMR</h4>
+                  <p class="card-text mb-2">Authors: Jamil, Huma, <strong>Khebour, Ibrahim</strong>, Lai, Kenneth, Pustejovsky, James, Krishnaswamy, Nikhil</p>
+                  <p class="card-text mb-2">Venue: International Conference on Computational Semantics, 2025</p>
+                  <a href="https://aclanthology.org/2025.iwcs-main.4.pdf" target="_blank" rel="noopener noreferrer">Paper link</a>
+                </div>
+              </div>
+
+              <div class="card publication-card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">Multimodal Situational Awareness: Neuro-Symbolic AI for Real-Time HCI in the Classroom</h4>
+                  <p class="card-text mb-2">Authors: Zhu, Yifan, Lai, Kenneth, <strong>Khebour, Ibrahim</strong>, Verhagen, Marc, Krishnaswamy, Nikhil, Pustejovsky, James</p>
+                  <p class="card-text mb-2">Venue: International Conference on Human-Computer Interaction, 2025</p>
+                  <a href="https://link.springer.com/chapter/10.1007/978-3-031-94153-5_45" target="_blank" rel="noopener noreferrer">Paper link</a>
+                </div>
+              </div>
+
+              <div class="card publication-card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">Tracking Individual Beliefs in Co-situated Groups Using Multimodal Input</h4>
+                  <p class="card-text mb-2">Authors: Bradford, Mariah, <strong>Khebour, Ibrahim</strong>, VanderHoeven, Hannah, Venkatesha, Videep, Blanchard, Nathaniel, Krishnaswamy, Nikhil</p>
+                  <p class="card-text mb-2">Venue: International Conference on Human-Computer Interaction, 2025</p>
+                  <a href="https://link.springer.com/content/pdf/10.1007/978-3-031-93412-4_8.pdf" target="_blank" rel="noopener noreferrer">Paper link</a>
+                </div>
+              </div>
+
+              <div class="card publication-card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">Propositional Extraction from Collaborative Naturalistic Dialogues</h4>
+                  <p class="card-text mb-2">Authors: Venkatesha, Videep, Nath, Abhijnan, <strong>Khebour, Ibrahim</strong>, Chelle, Avyakta, Bradford, Mariah, Tu, Jingxuan, VanderHoeven, Hannah, Bhalla, Brady, Youngren, Austin, Fitzgerald, Jack, et al.</p>
+                  <p class="card-text mb-2">Venue: Journal of Educational Data Mining, 2025</p>
+                  <a href="https://par.nsf.gov/servlets/purl/10588539" target="_blank" rel="noopener noreferrer">Paper link</a>
+                </div>
+              </div>
+
+              <div class="card publication-card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">TRACE: Real-Time Multimodal Common Ground Tracking in Situated Collaborative Dialogues</h4>
+                  <p class="card-text mb-2">Authors: VanderHoeven, Hannah, Bhalla, Brady, <strong>Khebour, Ibrahim</strong>, Youngren, Austin, Venkatesha, Videep, Bradford, Mariah, Fitzgerald, Jack, Mabrey, Carlos, Tu, Jingxuan, Zhu, Yifan, et al.</p>
+                  <p class="card-text mb-2">Venue: North American Chapter of the Association for Computational Linguistics (System Demonstrations), 2025</p>
+                  <a href="https://aclanthology.org/2025.naacl-demo.5.pdf" target="_blank" rel="noopener noreferrer">Paper link</a>
+                </div>
+              </div>
+
+              <div class="card publication-card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">Speech Is Not Enough: Interpreting Nonverbal Indicators of Common Knowledge and Engagement</h4>
+                  <p class="card-text mb-2">Authors: Palmer, Derek, Zhu, Yifan, Lai, Kenneth, VanderHoeven, Hannah, Bradford, Mariah, <strong>Khebour, Ibrahim</strong>, Mabrey, Carlos, Fitzgerald, Jack, Krishnaswamy, Nikhil, Palmer, Martha, et al.</p>
+                  <p class="card-text mb-2">Venue: AAAI Conference on Artificial Intelligence, 2025</p>
+                  <a href="https://www.researchgate.net/publication/390711866_Speech_Is_Not_Enough_Interpreting_Nonverbal_Indicators_of_Common_Knowledge_and_Engagement" target="_blank" rel="noopener noreferrer">Paper link</a>
+                </div>
+              </div>
+
+              <div class="card publication-card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">Multimodal Design for Interactive Collaborative Problem-Solving Support</h4>
+                  <p class="card-text mb-2">Authors: VanderHoeven, Hannah, Bradford, Mariah, Jung, Changsoo, <strong>Khebour, Ibrahim</strong>, Lai, Kenneth, Pustejovsky, James, Krishnaswamy, Nikhil, Blanchard, Nathaniel</p>
+                  <p class="card-text mb-2">Venue: International Conference on Human-Computer Interaction, 2024</p>
+                  <a href="https://bbykitty.github.io/assets/Multimodal%20Design%20for%20Interactive%20CPS%20Support.pdf" target="_blank" rel="noopener noreferrer">Paper link</a>
+                </div>
+              </div>
+
+              <div class="card publication-card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">Modeling Theory of Mind in Multimodal HCI</h4>
+                  <p class="card-text mb-2">Authors: Zhu, Yifan, VanderHoeven, Hannah, Lai, Kenneth, Bradford, Mariah, Tam, Christopher, <strong>Khebour, Ibrahim</strong>, Brutti, Richard, Krishnaswamy, Nikhil, Pustejovsky, James</p>
+                  <p class="card-text mb-2">Venue: International Conference on Human-Computer Interaction, 2024</p>
+                  <a href="https://dl.acm.org/doi/abs/10.1007/978-3-031-60405-8_14" target="_blank" rel="noopener noreferrer">Paper link</a>
+                </div>
+              </div>
+
+              <div class="card publication-card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">Propositional Extraction from Natural Speech in Small Group Collaborative Tasks</h4>
+                  <p class="card-text mb-2">Authors: Venkatesha, Videep, Nath, Abhijnan, <strong>Khebour, Ibrahim</strong>, Chelle, Avyakta, Bradford, Mariah, Tu, Jingxuan, Pustejovsky, James, Blanchard, Nathaniel, Krishnaswamy, Nikhil</p>
+                  <p class="card-text mb-2">Venue: International Conference on Educational Data Mining, 2024</p>
+                  <a href="https://files.eric.ed.gov/fulltext/ED675633.pdf" target="_blank" rel="noopener noreferrer">Paper link</a>
+                </div>
+              </div>
+
+              <div class="card publication-card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">Common Ground Tracking in Multimodal Dialogue</h4>
+                  <p class="card-text mb-2">Authors: <strong>Khebour, Ibrahim</strong>, Lai, Kenneth, Bradford, Mariah, Zhu, Yifan, Brutti, Richard, Tam, Christopher, Tu, Jingxuan, Ibarra, Benjamin, Blanchard, Nathaniel, Krishnaswamy, Nikhil, et al.</p>
+                  <p class="card-text mb-2">Venue: Joint International Conference on Computational Linguistics, Language Resources and Evaluation, 2024</p>
+                  <a href="https://aclanthology.org/2024.lrec-main.318.pdf" target="_blank" rel="noopener noreferrer">Paper link</a>
+                </div>
+              </div>
+
+              <div class="card publication-card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">When Text and Speech Are Not Enough: A Multimodal Dataset of Collaboration in a Situated Task</h4>
+                  <p class="card-text mb-2">Authors: <strong>Khebour, Ibrahim</strong>, Brutti, Richard, Dey, Indrani, Dickler, Rachel, Sikes, Kelsey, Lai, Kenneth, Bradford, Mariah, Cates, Brittany, Hansen, Paige, Jung, Changsoo, et al.</p>
+                  <p class="card-text mb-2">Venue: Journal of Open Humanities Data, 2024</p>
+                  <a href="https://par.nsf.gov/servlets/purl/10499601" target="_blank" rel="noopener noreferrer">Paper link</a>
+                </div>
+              </div>
+
+              <div class="card publication-card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">How Good is Automatic Segmentation as a Multimodal Discourse Annotation Aid?</h4>
+                  <p class="card-text mb-2">Authors: Terpstra, Corbyn, <strong>Khebour, Ibrahim</strong>, Bradford, Mariah, Wisniewski, Brett, Krishnaswamy, Nikhil, Blanchard, Nathaniel</p>
+                  <p class="card-text mb-2">Venue: Joint ACL-ISO Workshop on Interoperable Semantics, 2023</p>
+                  <a href="https://aclanthology.org/2023.isa-1.10.pdf" target="_blank" rel="noopener noreferrer">Paper link</a>
+                </div>
+              </div>
+
+              <div class="card publication-card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">Automatic Detection of Collaborative States in Small Groups Using Multimodal Features</h4>
+                  <p class="card-text mb-2">Authors: Bradford, Mariah, <strong>Khebour, Ibrahim</strong>, Blanchard, Nathaniel, Krishnaswamy, Nikhil</p>
+                  <p class="card-text mb-2">Venue: International Conference on Artificial Intelligence in Education, 2023</p>
+                  <a href="https://bbykitty.github.io/assets/Automatic%20Detection%20of%20Collaborative%20States.pdf" target="_blank" rel="noopener noreferrer">Paper link</a>
+                </div>
+              </div>
+
+              <div class="card publication-card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">A Generalized Method for Automated Multilingual Loanword Detection</h4>
+                  <p class="card-text mb-2">Authors: Nath, Abhijnan, Saravani, Sina Mahdipour, <strong>Khebour, Ibrahim</strong>, Mannan, Sheikh, Li, Zihui, Krishnaswamy, Nikhil</p>
+                  <p class="card-text mb-2">Venue: International Conference on Computational Linguistics, 2022</p>
+                  <a href="https://aclanthology.org/2022.coling-1.442.pdf" target="_blank" rel="noopener noreferrer">Paper link</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
